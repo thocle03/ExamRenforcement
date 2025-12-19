@@ -8,7 +8,7 @@ Ce projet implémente et compare trois algorithmes d'apprentissage par renforcem
 
 ---
 
-## 🎮 1. L'Environnement Tennis (Atari)
+## 1. L'Environnement Tennis (Atari)
 
 ### Description de l'environnement
 **Tennis** est un jeu Atari classique où l'agent contrôle une raquette pour renvoyer une balle de tennis. L'objectif est de marquer des points en faisant rebondir la balle du côté adverse sans la manquer.
@@ -48,11 +48,11 @@ L'agent doit apprendre à :
 
 ---
 
-## 🤖 2. Algorithmes d'Apprentissage par Renforcement
+## 2. Algorithmes d'Apprentissage par Renforcement
 
 Nous comparons trois algorithmes state-of-the-art pour ce problème :
 
-### 🔵 DQN (Deep Q-Network)
+### DQN (Deep Q-Network)
 
 #### Pourquoi DQN ?
 DQN est un algorithme **off-policy** basé sur la Q-learning qui a révolutionné l'apprentissage par renforcement en 2015 en atteignant des performances humaines sur plusieurs jeux Atari. Il est particulièrement adapté pour :
@@ -91,7 +91,7 @@ DQN(
 
 ---
 
-### 🟢 PPO (Proximal Policy Optimization)
+### PPO (Proximal Policy Optimization)
 
 #### Pourquoi PPO ?
 PPO est un algorithme **on-policy** moderne et robuste, considéré comme l'un des meilleurs algorithmes policy gradient. Il est excellent pour :
@@ -131,7 +131,7 @@ PPO(
 
 ---
 
-### 🟡 A2C (Advantage Actor-Critic)
+### A2C (Advantage Actor-Critic)
 
 #### Pourquoi A2C ?
 A2C est la version **synchrone** de A3C, un algorithme actor-critic qui combine les avantages des méthodes basées sur la valeur et sur la politique. Il est particulièrement adapté pour :
@@ -174,7 +174,7 @@ A2C(
 
 ---
 
-## 🔬 3. Configuration Expérimentale
+## 3. Configuration Expérimentale
 
 ### Paramètres communs
 - **Total timesteps** : 300 000 steps d'entraînement
@@ -204,7 +204,7 @@ make_vec_env_a2c(seed=seed, n_envs=4, n_stack=4)
 
 ---
 
-## 📊 4. Résultats et Visualisation
+## 4. Résultats et Visualisation
 
 Le notebook génère :
 1. **Courbes d'apprentissage** : Performance moyenne ± écart-type sur les 3 seeds
@@ -213,7 +213,7 @@ Le notebook génère :
 
 ---
 
-## 🚀 5. Utilisation
+## 5. Utilisation
 
 ### Installation
 ```python
@@ -242,7 +242,7 @@ tennis (1).ipynb
 
 ---
 
-## 📈 6. Comparaison des Algorithmes
+## 6. Comparaison des Algorithmes
 
 | Algorithme | Type | Environnements | Sample Efficiency | Stabilité | Vitesse |
 |------------|------|----------------|-------------------|-----------|---------|
@@ -257,7 +257,7 @@ tennis (1).ipynb
 
 ---
 
-## 📚 Références
+## Références
 
 - **DQN** : Mnih et al., "Human-level control through deep reinforcement learning", Nature 2015
 - **PPO** : Schulman et al., "Proximal Policy Optimization Algorithms", 2017
@@ -266,6 +266,7 @@ tennis (1).ipynb
 
 ---
 
+<<<<<<< HEAD
 ## 👤 Auteur
 Hexa Team
 Projet d'apprentissage par renforcement sur l'environnement Tennis Atari.
