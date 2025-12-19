@@ -268,4 +268,16 @@ tennis (1).ipynb
 
 ## 👤 Auteur
 Hexa Team
+## Méthodologie de Développement
+
+Ce projet a été développé en utilisant une approche assistée par IA :
+- **Base de code initiale** : Générée avec l'aide de ChatGPT pour mettre en place la structure et les implémentations de base des trois algorithmes
+- **Ajustements et optimisation** : Tous les paramètres, configurations d'environnements et callbacks ont été réajustés manuellement pour optimiser les performances de chaque algorithme
+- **Environnements spécialisés** : Configuration personnalisée pour chaque algorithme (multi-environnements pour A2C, paramètres optimisés pour DQN et PPO)
+- **Système d'évaluation** : Développement d'un callback personnalisé avec barre de progression en temps réel
+
+---
+
+## Auteur
+
 Projet d'apprentissage par renforcement sur l'environnement Tennis Atari.
