@@ -267,5 +267,5 @@ tennis (1).ipynb
 ---
 
 ## 👤 Auteur
-
+Hexa Team
 Projet d'apprentissage par renforcement sur l'environnement Tennis Atari.
