@@ -4,6 +4,8 @@
 
 Ce projet implémente et compare trois algorithmes d'apprentissage par renforcement (DQN, PPO, A2C) sur l'environnement **ALE/Tennis-v5** d'Atari.
 
+![tennis](https://github.com/user-attachments/assets/9eb7acf7-23fe-4648-ad10-53419ccb9336)
+
 ---
 
 ## 🎮 1. L'Environnement Tennis (Atari)
